@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.authors       = ['Tom Johnson']
+  spec.authors       = ['Tom Johnson', 'Bess Sadler']
   spec.email         = ['johnson.tom@gmail.com']
   spec.description   = 'A Style Configuration for RuboCop'
   spec.summary       = 'This is the recommended style configuration for use ' \
@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'Apache-2.0'
 
   spec.add_dependency 'rubocop',       '0.85.1'
+  spec.add_dependency 'rubocop-rails'
   spec.add_dependency 'rubocop-rspec', '1.39.0'
 
   spec.add_development_dependency 'github_changelog_generator'
