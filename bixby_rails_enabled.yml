@@ -1,9 +1,9 @@
 ---
-Rails:
-  Enabled: true
-
-Rails/ActionFilter:
-  Enabled: true
+# Rails:
+#   Enabled: true
+#
+# Rails/ActionFilter:
+#   Enabled: true
 
 Rails/Date:
   Enabled: true
@@ -76,4 +76,3 @@ Rails/SkipsModelValidations:
 
 Rails/Validation:
   Enabled: true
-
